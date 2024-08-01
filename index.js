@@ -40,7 +40,7 @@ WAConnection,
    mentionedJid,
    processTime,
 } = require("@adiwajshing/baileys");
-var jam = moment().format("HH:mm");
+var jam = moment(56).format("HH:mm");
 
 // OCR Library
 const readTextInImage = require('./lib/ocr')
